@@ -8,6 +8,6 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 # Ordforklaring
 * API (står for Application Programming Interface) en fælles grænseflade som to (eller flere) systemer kan bruger til at udveksle data. Det giver stor frihed til at benytte forskellige teknologier med fælles tilgang (interface) for andre programmer.
 * REST api bruger JSON formattet til at udveksling af data. Er som udgangspunkt stateless dvs. kald til api kan foregå uafhængigt af hinanden
-* REST stateful 
+* RESTful En applikation, der implementerer en RESTful API, definerer et eller flere URL-slutpunkter med et domæne, port, sti og / eller forespørgselsstreng - for eksempel https: // mitdomæne / bruger / 123? Format = json. Eksempler: ... en PUT-anmodning til / bruger / 123 opdaterer bruger 123 med kroppens data. en GET-anmodning til / bruger / 123 returnerer detaljerne om bruger 123.
 
 # Inspiration og tutorials
