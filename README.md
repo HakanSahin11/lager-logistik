@@ -17,4 +17,6 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 https://www.django-rest-framework.org/tutorial/quickstart/
 * Django Rest Framework – An Introduction<br />
 https://realpython.com/django-rest-framework-quick-start/
-* 
+* How to create a REST API with Django REST framework<br />
+https://blog.logrocket.com/django-rest-framework-create-api/
+
