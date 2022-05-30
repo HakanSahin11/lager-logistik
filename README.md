@@ -13,3 +13,8 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 * JSON er et akronym for JavaScript objekt notation. JSON er et format til strukturering af data, der sendes frem og tilbage via en API. JSON er et alternativ til XML. REST API'er reagerer mere almindeligt med JSON - et åbent standardformat, der bruger menneskelig læsbar tekst til at transmittere dataobjekter bestående af attributværdipar.
 
 # Inspiration og tutorials
+* Django REST framework - Quickstart<br />
+https://www.django-rest-framework.org/tutorial/quickstart/
+* Django Rest Framework – An Introduction<br />
+https://realpython.com/django-rest-framework-quick-start/
+* 
