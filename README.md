@@ -5,6 +5,11 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 * Definere API endpoints. Hvad skal systemet snakke sammen med og hvordan
 * Definere Hardware - software grænseflader
 
+# Todo
+[ ] Mangler at færdiggøre dokumentation
+[ ] Definere opsætning af CI/CD miljø
+[ ] Hvordan skal den hostes?
+
 # Ordforklaring
 * API (står for Application Programming Interface) en fælles grænseflade som to (eller flere) systemer kan bruger til at udveksle data. Det giver stor frihed til at benytte forskellige teknologier med fælles tilgang (interface) for andre programmer.
 * REST er en software arkitektur
