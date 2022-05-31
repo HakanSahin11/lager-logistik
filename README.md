@@ -31,4 +31,4 @@ https://www.django-rest-framework.org/tutorial/quickstart/
 https://realpython.com/django-rest-framework-quick-start/
 * How to create a REST API with Django REST framework<br />
 https://blog.logrocket.com/django-rest-framework-create-api/
-
+* Python® Notes for Professionals book<br />https://books.goalkicker.com/PythonBook/
