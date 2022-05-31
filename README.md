@@ -9,6 +9,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 - [ ] Mangler at færdiggøre dokumentation
 - [ ] Definere opsætning af CI/CD miljø
 - [ ] Hvordan skal den hostes?
+- [ ] Fastlæggelse af Python udvikling miljø
 
 # Ordforklaring
 * API (står for Application Programming Interface) en fælles grænseflade som to (eller flere) systemer kan bruger til at udveksle data. Det giver stor frihed til at benytte forskellige teknologier med fælles tilgang (interface) for andre programmer.
