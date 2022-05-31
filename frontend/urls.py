@@ -5,5 +5,6 @@ from .views import home
     they access a certain URL. In this case, when they access the root URL, they will 
     be directed to the home view.'''
 urlpatterns = [
-    path('', home,name='home'),
+    path( '',  home, name='home' ),
+    path( '/', home, name='home' ),
 ]
