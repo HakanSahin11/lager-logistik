@@ -28,7 +28,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 │   └── __pycache__
 └── frontend
     ├── migrations
-    │   ÀÄÄÄ__pycache__
+    │   └── __pycache__
     ├── __pycache__
     └──static
         ├── data
