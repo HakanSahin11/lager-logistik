@@ -20,21 +20,21 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 
 # Struktur
 ```
-ÃÄÄÄdokumentation
-³   ÃÄÄÄInspiration
-³   ÃÄÄÄStregkode
-³   ÀÄÄÄOrig mindmap
-ÃÄÄÄbackend
-³   ÀÄÄÄ__pycache__
-ÀÄÄÄfrontend
-    ÃÄÄÄmigrations
-    ³   ÀÄÄÄ__pycache__
-    ÃÄÄÄ__pycache__
-    ÀÄÄÄstatic
-        ÃÄÄÄdata
-        ÃÄÄÄimg
-        ÃÄÄÄjavascript
-        ÀÄÄÄcss
+├── dokumentation
+│   ├── Inspiration
+│   ├── Stregkode
+│   └── Orig mindmap
+├── backend
+│   └── __pycache__
+└── frontend
+    ├── migrations
+    │   ÀÄÄÄ__pycache__
+    ├── __pycache__
+    └──static
+        ├── data
+        ├── img
+        ├── javascript
+        └── css
 ```
 
 # Ordforklaring
