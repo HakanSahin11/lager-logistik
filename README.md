@@ -11,6 +11,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 - [ ] Hvordan skal den hostes?
 - [ ] Fastlæggelse af Python udvikling miljø
 - [ ] Fastlægge modeller (db felter) som er nødvendige
+- [ ] Hvordan styrer man Python virtuelt miljø i forhold til container (eks. Docker) udvikling
 
 # Python udviklingsmiljø
 * Python 3.9
