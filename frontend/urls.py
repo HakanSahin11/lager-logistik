@@ -6,5 +6,4 @@ from .views import home
     be directed to the home view.'''
 urlpatterns = [
     path( '',  home, name='home' ),
-    path( '/', home, name='home' ),
 ]
