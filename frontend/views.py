@@ -14,6 +14,9 @@ def items(request):
 def itemSingle(request):
     return NULL
 
+def itemNew(request):
+    return NULL
+
 # Scanner input - manual handscanner
 def scanning(request):
     return NULL
