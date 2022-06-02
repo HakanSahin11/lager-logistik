@@ -12,6 +12,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 - [ ] Fastlæggelse af Python udvikling miljø
 - [ ] Fastlægge modeller (db felter) som er nødvendige
 - [ ] Hvordan styrer man Python virtuelt miljø i forhold til container (eks. Docker) udvikling<br />Læs evt.: [Should I use virtualenv or Docker containers with Python?](https://coderbook.com/@marcus/should-i-use-virtualenv-or-docker-containers-with-python/)
+- [ ] Fastlæggelse af braches
 
 # Python udviklingsmiljø
 * Python 3.9
