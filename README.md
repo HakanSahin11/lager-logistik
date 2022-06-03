@@ -19,6 +19,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 * Pylance - intellisense
 * Pylint
 * Django 4.0.4
+* Virtuelt miljø -> Docker miljø -> Kubernetes miljø
 
 # Struktur
 ```
@@ -28,15 +29,22 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 │   └── Orig mindmap
 ├── backend
 │   └── __pycache__
-└── frontend
-    ├── migrations
-    │   └── __pycache__
-    ├── __pycache__
-    └──static
-        ├── data
-        ├── img
-        ├── javascript
-        └── css
+├── frontend
+│   ├── migrations
+│   │   └── __pycache__
+│   ├── __pycache__
+│   └── static
+│       ├── data
+│       ├── img
+│       ├── javascript
+│       └── css
+├── db.sqlite3
+├── Dockerfile              // command line to assemble an image
+├── Dockerfile-compose-dev  // define and start multi-container applikation - Development
+├── Dockerfile-compose-prod // define and start multi-container applikation - Development
+├── LICENCE                 // MIT licence
+├── README.md               // This file
+└── requirements.txt        // Python libraries
 ```
 
 # Ordforklaring
