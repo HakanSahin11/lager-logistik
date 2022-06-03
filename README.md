@@ -41,7 +41,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 ├── db.sqlite3
 ├── Dockerfile              // command line to assemble an image
 ├── Dockerfile-compose-dev  // define and start multi-container applikation - Development
-├── Dockerfile-compose-prod // define and start multi-container applikation - Development
+├── Dockerfile-compose-prod // define and start multi-container applikation - Produktion
 ├── LICENCE                 // MIT licence
 ├── README.md               // This file
 └── requirements.txt        // Python libraries
