@@ -1,11 +1,9 @@
 # Lager og logistik system
 Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en simpel database. Data kommer i første omgang fra en csv fra inventar systemet.
 
-# Opgaver
-* Definere API endpoints. Hvad skal systemet snakke sammen med og hvordan
-* Definere Hardware - software grænseflader
-
 # Todo
+- [ ] Definere Hardware - software grænseflader
+- [ ] Definere API endpoints. Hvad skal systemet snakke sammen med og hvordan
 - [ ] Mangler at færdiggøre dokumentation
 - [ ] Definere opsætning af CI/CD miljø
 - [ ] Hvordan skal den hostes?
@@ -13,6 +11,8 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 - [ ] Fastlægge modeller (db felter) som er nødvendige
 - [ ] Hvordan styrer man Python virtuelt miljø i forhold til container (eks. Docker) udvikling<br />Læs evt.: [Should I use virtualenv or Docker containers with Python?](https://coderbook.com/@marcus/should-i-use-virtualenv-or-docker-containers-with-python/)
 - [ ] Fastlæggelse af braches
+- [ ] Fastlægge udseende på stregkode
+- [ ] Få stregkoden ud på Dymo
 
 # Python udviklingsmiljø
 * Python 3.9
@@ -41,7 +41,7 @@ Vi har brug for at system som kan tage stregkode fra udstyr og gemme det i en si
 ├── db.sqlite3
 ├── Dockerfile              // command line to assemble an image
 ├── Dockerfile-compose-dev  // define and start multi-container applikation - Development
-├── Dockerfile-compose-prod // define and start multi-container applikation - Development
+├── Dockerfile-compose-prod // define and start multi-container applikation - Production
 ├── LICENCE                 // MIT licence
 ├── README.md               // This file
 └── requirements.txt        // Python libraries
