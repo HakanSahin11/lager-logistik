@@ -12,16 +12,4 @@ ENV: PYTHONUNBUFFERED
 COPY: ./requirements.txt /requirements.txt # Copy the req file
 RUN: pip install -r /requirements.txt # and install it into out Docker
 
-services:
-    database:
-        container_name: postgres
-        image: postgres14.3-alpine
-        enviroment:
-            - POSTGRES_DB=${POSTGRES_DB}
-            - POSTGRES_DB=${POSTGRES_USER}
-            - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-        ports:
-            - "${POSTGRES_PORT}:5432"                   #default PostgreSQL port
-        
-
-# NGINX
+RUN mkdir
